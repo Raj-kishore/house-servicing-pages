@@ -1,0 +1,952 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Venue - Responsive HTML5 Template</title>
+    <meta name="keywords" content="HTML5 Template" />
+    <meta name="description" content="Venue - Responsive HTML5 Template">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Web Fonts  -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,700,800,900" rel="stylesheet" type="text/css">
+
+    <!-- Libs CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/v-nav-menu.css" rel="stylesheet" />
+    <link href="css/v-animation.css" rel="stylesheet" />
+    <link href="css/v-bg-stylish.css" rel="stylesheet" />
+    <link href="css/v-shortcodes.css" rel="stylesheet" />
+    <link href="css/theme-responsive.css" rel="stylesheet" />
+    <link href="plugins/owl-carousel/owl.theme.css" rel="stylesheet" />
+    <link href="plugins/owl-carousel/owl.carousel.css" rel="stylesheet" />
+
+    <!-- Current Page CSS -->
+    <link href="plugins/rs-plugin/css/settings.css" rel="stylesheet" />
+    <link href="plugins/rs-plugin/css/custom-captions.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+	
+	
+	<style> 
+	body{
+	text-transform: capitalize;
+	  }
+    #loader{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: #fff;
+        z-index: 2000;
+        text-align: center;
+        display: table-cell;
+    }
+    #insideloader{
+        display: inline-block;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+	</style>
+	
+</head>
+
+<body class="no-page-top">
+    <!-- <div id="loader">
+        <img id="insideloader" src="C:\\Users\\ramahara\\Desktop\\temp\\Constr_demo\\VenueLanding\\img\\ajax.gif">
+    </div> -->
+
+    <!--Header-->
+    <!--Set your own background color to the header-->
+    <header class="semi-transparent-header" data-bg-color="rgba(9, 103, 139, 0.36)" data-font-color="#fff">
+        <div class="container">
+
+            <!--Site Logo-->
+            <div class="logo" data-sticky-logo="img/logo-white.png" data-normal-logo="img/logo.png">
+                <a href="index.html">
+                    <img alt="Venue" src="img/logo.png" data-logo-height="35">
+                </a>
+            </div>
+            <!--End Site Logo-->
+
+            <div class="navbar-collapse nav-main-collapse collapse">
+
+                <!--Header Search-->
+                <!-- <div class="search" id="headerSearch">
+                    <a href="#" id="headerSearchOpen"><i class="fa fa-search"></i></a>
+                    <div class="search-input">
+                        <form id="headerSearchForm" action="#" method="get">
+                            <div class="input-group">
+                                <input type="text" class="form-control search" name="q" id="q" placeholder="Search...">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-primary" type="button"><i class="fa fa-search"></i></button>
+                                </span>
+                            </div>
+                        </form>
+                        <span class="v-arrow-wrap"><span class="v-arrow-inner"></span></span>
+                    </div>
+                </div> -->
+                <!--End Header Search-->
+
+                <!--Main Menu-->
+                <nav class="nav-main mega-menu one-page-menu">
+                    <ul class="nav nav-pills nav-main" id="mainMenu">
+                        <li class="active">
+                            <a data-hash href="#home"><i class="fa fa-home"></i>Home</a>
+                        </li>
+                        <li>
+                            <a data-hash href="#aboutus"><i class="fa fa-fire"></i>About Us</a>
+                        </li>
+						
+						
+						<li class="dropdown">
+                            <a class="dropdown-toggle menu-icon" href="#products"><i class="fa fa-umbrella"></i>Products <i class="fa fa-caret-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-submenu">
+                                    <a href="#">Plumbing</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#"">swr pipes & fittings</a></li>
+                                        <li><a href="#">upvc pipes & fittings</a></li>
+                                        <li><a hre  f="#">pvc pipes & fittings</a></li> 
+                                        <li><a hre  f="#">cpvc pipes & fittings</a></li> 
+                                        <li><a hre  f="#">roof water</a></li> 
+                                        <li><a hre  f="#">other materials</a></li> 
+                                    </ul>
+                                </li>
+                                <li><a href="#">Electrical Cables</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#">Tanks</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#"">2 Layer</a></li>
+                                        <li><a href="#">3 Layer</a></li>
+                                        <li><a hre  f="#">4 Layer</a></li> 
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#">Fire fighting</a>   
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#"">pipes gi</a></li>
+                                        <li><a href="#">valves (all types)</a></li>
+                                        <li><a hre  f="#">safety equipments</a></li> 
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#">Pumps</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#"">Fire fighting</a></li>
+                                        <li><a href="#">Submersible water pumps</a></li>
+                                        <li><a hre  f="#">Gutter</a></li> 
+                                        <li><a hre  f="#">Other types</a></li> 
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+						
+						
+                        <li class="dropdown">
+                            <a class="dropdown-toggle menu-icon" href="#services"><i class="fa fa-umbrella"></i>Security Services <i class="fa fa-caret-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">securities and watchman</a></li>
+                                <li><a href="#">security supervisor</a></li>
+                                <li><a href="#">bouncer</a></li>
+                                <li><a href="#">cctv</a></li>
+                            </ul>
+                        </li>
+<!--             
+                      <li class="dropdown">
+                            <a class="dropdown-toggle menu-icon" href="#"><i class="fa fa-umbrella"></i>Other Services <i class="fa fa-caret-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">party security</a></li>
+                                <li><a href="#">valet services</a></li>
+                                <li><a href="#">house keeping</a></li>
+                            </ul>
+                        </li> -->
+                        <li>
+                            <a data-hash href="#contact-us"><i class="fa fa-laptop"></i>contact us</a>
+                        </li>
+               
+                    </ul>
+                </nav>
+                <!--End Main Menu-->
+            </div>
+            <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse">
+                <i class="fa fa-bars"></i>
+            </button>
+        </div>
+    </header>
+    <!--End Header-->
+
+    <div id="container">
+
+        <!--Set your own slider options. Look at the v_RevolutionSlider() function in 'theme-core.js' file to see options-->
+        <div class="home-slider-wrap fullwidthbanner-container" id="home">
+            <div class="v-rev-slider" data-slider-options='{ "startheight": 700 }'>
+
+                <ul>
+
+                    <li data-transition="fade" data-slotamount="7" data-masterspeed="600">
+
+                        <img src="http://www.bcservices-inc.com/wp-content/uploads/2016/03/slider-2b-new.png" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+
+                        <div class="tp-caption v-caption-big-white sfl stl"
+                            data-x="450"
+                            data-y="245"
+                            data-speed="600"
+                            data-start="600"
+                            data-easing="Power1.easeInOut"
+                            data-splitin="none"
+                            data-splitout="none"
+                            data-elementdelay="0"
+                            data-endelementdelay="0"
+                            data-endspeed="300">
+                            Household products & services 
+                            <br />
+                            at your door step 
+                        </div>
+
+                        <div class="tp-caption v-caption-h1 sfl stl"
+                            data-x="450"uc
+                            data-y="360"
+                            data-speed="700"
+                            data-start="1200"
+                            data-easing="Power1.easeInOut"
+                            data-splitin="none"
+                            data-splitout="none"
+                            data-elementdelay="0"
+                            data-endelementdelay="0"
+                            data-endspeed="300">
+                            Built on cutting edge technology.<br>
+                            Make an impact to keep house hold 
+                        </div>
+
+                        <div class="tp-caption sfl stl"
+                            data-x="450"
+                            data-y="450"
+                            data-speed="600"
+                            data-start="1800"
+                            data-easing="Power1.easeInOut"
+                            data-splitin="none"
+                            data-splitout="none"
+                            data-elementdelay="0"
+                            data-endelementdelay="0"
+                            data-endspeed="300">
+                            <a href='#' class="btn v-btn v-second-light">PRODUCTS</a>
+                        </div>
+
+                        <div class="tp-caption sfl stl"
+                            data-x="605"
+                            data-y="450"
+                            data-speed="600"
+                            data-start="2200"
+                            data-easing="Power1.easeInOut"
+                            data-splitin="none"
+                            data-splitout="none"
+                            data-elementdelay="0"
+                            data-endelementdelay="0"
+                            data-endspeed="300">
+                            <a href='#' class="btn v-btn v-second-light">SECURITY SERVICES</a>
+                        </div>
+
+                        <div class="tp-caption sfl stl"
+                            data-x="110"
+                            data-y="130"
+                            data-speed="600"
+                            data-start="1800"
+                            data-easing="Power1.easeInOut"
+                            data-splitin="none"
+                            data-splitout="none"
+                            data-elementdelay="0"
+                            data-endelementdelay="0"
+                            data-endspeed="300">
+                            <!--<a href='#' class="btn v-btn v-third-light">GET IT NOW!</a>-->
+                            <img src="https://www.pngkey.com/png/full/69-699347_construction-man.png" />
+                        </div>
+
+
+
+                        <!--<div class="v-slider-overlay overlay-colored"></div>-->
+                    </li>
+                </ul>
+            </div>
+
+            <div class="shadow-right"></div>
+        </div>
+
+        <div class="v-page-wrap no-bottom-spacing">
+
+            <div class="container">
+                <div class="v-spacer col-sm-12 v-height-small"></div>
+            </div>
+
+            <!--Aboutus-->
+            <div class="container" id="aboutus">
+
+                <div class="row center">
+
+                    <div class="col-sm-12">
+                        <p class="v-smash-text-large-2x">
+                            <span>About Us</span>
+
+                        </p>
+                        
+                        <div class="horizontal-break"></div>
+                        <p class="v-smash-text-large-2x">
+                                <span>About Us Description</span>
+    
+                            </p>
+                        
+                        <div class="horizontal-break"></div>
+                        
+                        <p class="lead" style="color: #999;">
+                            Standalone &amp; Quality products<br>
+                            delivered and served on time
+                        </p>
+                    </div>
+                    <div class="v-spacer col-sm-12 v-height-standard"></div>
+                </div>
+
+                <div class="row features">
+
+                    <div class="col-md-4 col-sm-4">
+                        <div class="feature-box left-icon v-animation pull-top" data-animation="fade-from-left" data-delay="300">
+                            <div class="feature-box-icon small">
+                                <i class="fa fa-laptop v-icon"></i>
+                            </div>
+                            <div class="feature-box-text">
+                                <h3>Plumbing</h3>
+                                <div class="feature-box-text-inner">
+                                    Class aptent taciti sociosqu ad litora torquent
+                                            per conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="v-spacer col-sm-12 v-height-standard"></div>
+
+                        <div class="feature-box left-icon v-animation" data-animation="fade-from-left" data-delay="600">
+                            <div class="feature-box-icon small">
+                                <i class="fa fa-vimeo-square v-icon"></i>
+                            </div>
+                            <div class="feature-box-text">
+                                <h3>Electrical calbles</h3>
+                                <div class="feature-box-text-inner">
+                                    Class aptent taciti sociosqu ad litora torquent per
+                                            conubia nostra, per inceptos himenaeos nulla nunc duil.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="v-spacer col-sm-12 v-height-standard"></div>
+
+                        <div class="feature-box left-icon v-animation" data-animation="fade-from-left" data-delay="900">
+                            <div class="feature-box-icon small">
+                                <i class="fa fa-cloud-download v-icon"></i>
+                            </div>
+                            <div class="feature-box-text">
+                                <h3>Tanks</h3>
+                                <div class="feature-box-text-inner">
+                                    Class aptent taciti sociosqu ad litora torquent per
+                                            conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                        <img class="img-responsive phone-image v-animation" data-animation="fade-from-bottom" data-delay="250" src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX18573303.jpg" />
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                        <div class="feature-box left-icon v-animation pull-top" data-animation="fade-from-right" data-delay="300">
+                            <div class="feature-box-icon small">
+                                <i class="fa fa-tablet v-icon"></i>
+                            </div>
+                            <div class="feature-box-text">
+                                <h3>Fire fighting</h3>
+                                <div class="feature-box-text-inner">
+                                    Class aptent taciti sociosqu ad litora torquent per
+                                    conubia nostra, per inceptos himenaeos nulla nunc dui.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="v-spacer col-sm-12 v-height-standard"></div>
+
+                        <div class="feature-box left-icon v-animation" data-animation="fade-from-right" data-delay="600">
+                            <div class="feature-box-icon small">
+                                <i class="fa fa-lightbulb-o v-icon"></i>
+                            </div>
+                            <div class="feature-box-text">
+                                <h3>Pumps</h3>
+                                <div class="feature-box-text-inner">
+                                    Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+                                    per inceptos himenaeos. Nulla nunc dui, tristique in semper vel.<br />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="v-spacer col-sm-12 v-height-standard"></div>
+
+                        <div class="feature-box left-icon v-animation" data-animation="fade-from-right" data-delay="900">
+                            <div class="feature-box-icon small">
+                                <i class="fa fa-google-plus v-icon"></i>
+                            </div>
+                            <div class="feature-box-text">
+                                <h3>Security & Other services </h3>
+                                <div class="feature-box-text-inner">
+                                    Class aptent taciti sociosqu ad litora torquent per
+                                    conubia nostra, per inceptos himenaeos. Nulla nunc dui, tristique in semper vel.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End aboutus-->
+
+            <div class="container">
+                <div class="v-spacer col-sm-12 v-height-standard"></div>
+            </div>
+
+            <!--Product-->
+            <div class="v-parallax v-bg-stylish v-bg-stylish-v4 no-shadow" id="products">
+                    <div class="container">
+                        <div class="row center">
+                            <div class="col-sm-12">
+                                <p class="v-smash-text-large-2x">
+                                    <span>Products</span>
+                                </p>
+                                <div class="horizontal-break"></div>
+                                <p class="lead" style="color: #999;">
+                                    Some description
+                                </p>
+                            </div>
+                            <div class="v-spacer col-sm-12 v-height-standard"></div>
+                        </div>
+    
+                        <div class="row">
+                            <div class="col-sm-12">
+    
+                                <div class="carousel-wrap">
+    
+                                    <div class="owl-carousel" data-plugin-options='{"items": 4, "singleItem": false, "pagination": true}'>
+                                        <div class="item">
+                                            <figure class="lightbox animated-overlay overlay-alt clearfix">
+                                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAEsCAMAAABgwwj8AAAA7VBMVEUiOEMvR1EbJiz/aQAAAAAxSlX/awAkO0YSGh4QFxv/aAETHCARGR0VHiMqP0gPFhkhMjklOEAgNT8YIigARFUmOkIiMzoGCQsNEhUdMDksQkscKjAWJCsAAAUZKTEaKC0AABAkRlLsYQEACRT4aQ1NIAB1MQV5MACGNACSOgAcJCegQAAaGhytRgAdExC8TQAlEALJUwAsEADVWAA3EgDiXQFCFwAIIyxXIQAUDAiKVkIAEBd/U0J0UURfTkpfJwFIS07kZRzOYSm8XzCqWzhlUUtCTFHVZSqxXzmcWTvdZSO8YTXvax+aWz9yVEk52DqoAAAJY0lEQVR4nO3daXebOBQGYAzYsmMIiZlEOEubNuk2bad7ZzqZJZ19//8/ZwQmDouErnb5HO6H9hvnORfHvFcIE0S9evj4MPCwes6rxyvXJmr1nE/8dPagT9auRYzqOJ/66uxAn5669jCr5XwWuuawq+l8/iVyzWFX05l67LyDzp6/8Nm5hc5evnBNGa6t8yvXEk7Vzle+O4Pa+dq1g1uV881bTy/wjdoVJ4HO3r339gLfqNJ5z+sv0LpmHz5+vQvO4OGj3XAG3+yIM/D7At+oXXGONdZYY4011lhjjTXWWGONNdZYY4011lhjjTXWWGMpFDpwLYAVOitcE0BFnB7vc7orlBbhLkDRkjh3AIqS0uk/FGVZuBPQYhHuBBTXTt+hW6ff0BVOwl2AruJluAvQVTwPdwG6bvbTXyhax2m4A1B0r+P0FNp3+gmlOL2EorO+00coceY9p4dQlNKc/kHRHNOc3kFRQnf6BkUFw+kblOn0DIqZTr+guGAxvYKuhpweQVfxkNMfKMfpDXTNcXoCJTE5G3b6AQU4vYCS+LngOX2AgpweQEn8BDjdQ4kTA5zOoegMn2YF8wrvDRSl+GA6hUgdO5f4eDqZTJfs1OQFFCXFIXESaY77c6c/UJTVTiINKROyL1BUZEe1k0hP22tiPkGLxZ2TSA9aq4weQXGy33AS6fHgF78757LtJNLDIakj5ipOTybdmu4PhFJXzrzv3Ei9GpfXdCepE6bUjTNkOImUNdrbZ5I4f5/FLKugX6TsO+/Fp0POySSjSv1zTqZz2kXKuhMfcJxEmlIuUpadZwBnFVESp1CU42OAs4oo3YuUVeeygDmriJI5g5YxGeisIkrhCIoW2eGUL9xKD9tSe9B2/ARIj1pztD3nvBvruNL9ptSWsx8/AXUS31347TBXON0XZpZSvL2LZ8nJinXcwrfTqRXnQKzjVlFLLThJrJN3TqbJJqIYZ/LiJ1+aVpdTC05erONKw/Jyatp5D6s6ifR+bHpHLih+AqQkoph1wuInSGrUCY2fAKnJH5lFKTh+AsqgcykQPx1CUZIdaXQag6JFotVpDFrIxDoHUOLUyjQFlYyf1qHy8dMqdIUV4qdFqBmnfuhaQ1yyATXl1AxFxpx6oZrip3GoSadOKInJGmOdOSg60xrrjEFRbtSpDYpSvfHTFBTNNcdPQ1C00B7rzEAz/bHOCLQw79QCLQzETxPQwkis0w/FiQWmOnSFs/hA77xpBLrCaZjGpxakas51dXtlaUOqwkTr+jaQDama86y+CWRBquBsPmpoXirvPMO4cUvduFTamePDk9iiNJB7rwRK8eF0YlMaYBkpWuLq5ntHavKbP1jE4u8UQUlRbxJoSecmexqECywsxdl2lbYjNdfTIMwzUWnDOZnsNzf+GJQGoah0heetmGxJSqBhXmABZ7xsx8+pHWkJJVLwzymt+3t+7UgrKFiKKE5L0g20lAJeMIIYe36J1Pjffg0N02LBlRJnSD+KBektNExxwpGSuMTcdNE++yauUVsokc4HpehsaNOF8c9p0OgDHnpz4LDTfE8bUCLNmVISl9bDRzLc0yY0nDOl5SNnvEMRaWPDr+6etqDk6PTXiaEEsjpvtKdtKDk6TYoy2KYLk9IONExo0rtHztxJu9BwEa+7UgxfnZ8emZL2oGEWd4YTvBDYm2xM2ofmHSlOhPYmm5L2oW3pSnjPL5EmBqQUKIlS24FPZs9vV3qsRUqDlpF/I13FMqvzRqRU6K2U8WicEykdSuIpruKn5Or89FC7lAEl0kLeaULKghJpfKqyh7p19hN1KRNKgnSmcvB2T9WlbCiJp4lH0gEokS4VpY1H51SlQ1ASpFNvpINQ8uea+yIdhpKDKy15apRyoCSeeiLlQb2RcqEk9Cn9EbSli1jkAUEhaCmVPbhOKR+qLj1uPjQtKwVAyyAt9qRkX6reUwi0lCptVtchBUF9kMKgZehT2jHUliYSUiC0lKpA1aVQaDmcaJSKn30wlARpndJE9IsEDiXxVK9UrKcCUBJPC6Xs2/6lJMGzLwIlPVUao3pSkbMvBCU9XbiSikHDRG2MKqWt6z5cKgglx1YaTuSlolBy7NCJVBiaL+L7GqUZVCoMLeOp2tqsnFQcqlsKPPsS0DL0qe0bkpHKQMnXaXzwwLJUChpefrr69gu7Uino9euraPbdA6tSGej1+4jU7HurUgno5ceoqtkPWqWcoUwcevloFumRnopIhaEXP946Sd2oShs/PJcNS0WhLWd09ZuqtHWNGpKKQfOLx00nkU5UpdCeCkHzi6dtJ5EqQQWkItD8/FnXGUX/WJIKQNPz531nFH1WukSBpQJz/flLmjOK/rIiha+UnL+iO6PoJxtSKHTJcO7ZkgKhy/M3rH6Smv1sXgqDJufvWM6qpbNfjEtB0CT+MNBPO1II9HrYuenpv4alAOh1/HCwn3sbqVqQ5kr50OtPV5zzXp99s1IutBw7eLW3kf6qU9q9vcGDXr4FNHNz8qNILUgP95QDvR07eKe9/v9Gp7Td02Ho3dgB6+lMLUiXv5DXlgKh7TjPs5b/KEb+AekQVMhZl2Lk70m3W6/Y0PziibhTOUh33oeRbXvKhFLGDl5tPqefVaX0nrKg1LEDVoqRv9PTWykDmtPHDlj9bkJKhzLHDl5tzr5ikKaefSp0YOyAlWKQpklpUGVnNPtD+9mnQIfHDqBUMUj3pX3onD12iEj/1CvFPejAeCQm/U6rNOs/1MIbjwClJfJ3pB0ob+wQKcW18/I9WA1pG3r9SZ9TeUW6LW1BIWMHsPZ0S5vQa8jYIVY32qQNKHDsANbmYqoapO+kd1Dw2CEmVQzSW+kWeikR5yHUK9VHGmrpLVRm7OBCK6lqPK2l9fP13bsdOktdWr5/ffOLBeJjB7CqniqunVfStPoNiAvpsYML1bEiXUrLUKI0dnClkSZpQJySYwdQWlH/VpVOAunxCE6NNATpSaAhzvOglVQ1SAca4iefWkrVNqFMAvPMuhSDtCVo1VOlIG2vo4pr5zahSkHaHrT6Pr2RllqEVp9T6SBt89SXUukgbfUzGlXSHYBWH1PJtXPrHZUN0pY7Kh+kbXe0ksqsnVuG7klvQrH+Gd0EafG1cwd/TJVUOEg7gEZSQdoFtCrRTShOOlqvSAtJnXVUNEi7glaf0/8EpM46WkkFgrTDU1/WDVjqGDq7gUL/B7aIMyEM8AWvAAAAAElFTkSuQmCC" class="attachment-full">
+                                                <a class="view" href="img/landing/1.jpg" rel="image-gallery"></a>
+                                                <figcaption>
+                                                    <div class="thumb-info">
+                                                        <h4>Plumbing</h4>
+                                                        <p>Plumbing description</p>
+                                                        <i class="fa fa-eye"></i>
+                                                    </div>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+    
+                                        <div class="item">
+                                            <figure class="lightbox animated-overlay overlay-alt clearfix">
+                                                <img src="data:image/png;base64,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" class="attachment-full">
+                                                <a class="view" href="img/landing/2.jpg" rel="image-gallery"></a>
+                                                <figcaption>
+                                                    <div class="thumb-info">
+                                                        <h4>Electrical Cables</h4>
+                                                        <p>Electrical Cables description</p>
+                                                        <i class="fa fa-eye"></i>
+                                                    </div>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+    
+                                        <div class="item">
+                                            <figure class="lightbox animated-overlay overlay-alt clearfix">
+                                                <img src="data:image/png;base64,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" class="attachment-full">
+                                                <a class="view" href="img/landing/3.jpg" rel="image-gallery"></a>
+                                                <figcaption>
+                                                    <div class="thumb-info">
+                                                        <h4>Tanks</h4>
+                                                        <p>Tanks description</p>
+                                                        <i class="fa fa-eye"></i>
+                                                    </div>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+    
+                                        <div class="item">
+                                            <figure class="lightbox animated-overlay overlay-alt clearfix">
+                                                <img src="data:image/png;base64,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" class="attachment-full">
+                                                <a class="view" href="img/landing/4.jpg" rel="image-gallery"></a>
+                                                <figcaption>
+                                                    <div class="thumb-info">
+                                                        <h4>Fire Fightings</h4>
+                                                        <p>Fire Fighting description</p>
+                                                        <i class="fa fa-eye"></i>
+                                                    </div>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+    
+                                        <div class="item">
+                                            <figure class="lightbox animated-overlay overlay-alt clearfix">
+                                                <img src="data:image/png;base64,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" class="attachment-full">
+                                                <a class="view" href="img/landing/1.jpg" rel="image-gallery"></a>
+                                                <figcaption>
+                                                    <div class="thumb-info">
+                                                        <h4>Pumps</h4>
+                                                        <p>Pumps description</p>
+                                                        <i class="fa fa-eye"></i>
+                                                    </div>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End aboutus-->
+
+            <!--Services-->
+            <div class="v-parallax v-parallax-video v-bg-stylish" id="services" style="background-image: url(img/slider/slider4.jpg);">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-sm-3">
+                            <div class="feature-box feature-box-secundary-one v-animation" data-animation="grow" data-delay="0">
+                                <div class="feature-box-icon small">
+                                    <i class="fa fa-laptop v-icon"></i>
+                                </div>
+                                <div class="feature-box-text clearfix">
+                                    <h3>Watchmen</h3>
+                                    <div class="feature-box-text-inner">
+                                        <p>
+                                            Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+                                                    per inceptos himenaeos. Nulla nunc dui, tristique in semper vel.
+                                        </p>
+
+                                        <a href="#" class="read-more">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="feature-box feature-box-secundary-one v-animation" data-animation="grow" data-delay="200">
+                                <div class="feature-box-icon small">
+                                    <i class="fa fa-leaf v-icon"></i>
+                                </div>
+                                <div class="feature-box-text">
+                                    <h3>Security supervisor</h3>
+                                    <div class="feature-box-text-inner">
+                                        <p>
+                                            Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+                                                    per inceptos himenaeos. Nulla nunc dui, tristique in semper vel.<br />
+                                        </p>
+                                        <a href="#" class="read-more">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="feature-box feature-box-secundary-one v-animation" data-animation="grow" data-delay="400">
+                                <div class="feature-box-icon small">
+                                    <i class="fa fa-scissors v-icon"></i>
+                                </div>
+                                <div class="feature-box-text">
+                                    <h3>Bouncer</h3>
+                                    <div class="feature-box-text-inner">
+                                        <p>
+                                            Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+                                                    per inceptos himenaeos. Nulla nunc dui, tristique in semper vel.<br />
+                                        </p>
+                                        <a href="#" class="read-more">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="feature-box feature-box-secundary-one v-animation" data-animation="grow" data-delay="400">
+                                <div class="feature-box-icon small">
+                                    <i class="fa fa-scissors v-icon"></i>
+                                </div>
+                                <div class="feature-box-text">
+                                    <h3>CCTV</h3>
+                                    <div class="feature-box-text-inner">
+                                        <p>
+                                            Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+                                                    per inceptos himenaeos. Nulla nunc dui, tristique in semper vel.<br />
+                                        </p>
+                                        <a href="#" class="read-more">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="v-bg-overlay overlay-colored"></div>
+                    </div>
+                </div>
+            </div>
+            <!--End Services-->
+
+            <div class="container">
+                    <div class="v-spacer col-sm-12 v-height-big"></div>
+            </div>
+
+            <!--Client details-->
+            <div class="container">
+                    <div class="row center v-counter-wrap">
+                        <div class="col-sm-3">
+                            <i class="fa fa-building v-icon icn-holder"></i>
+                            <div class="v-counter">
+                                <div class="count-number" data-from="0" data-to="20" data-speed="1000" data-refresh-interval="25"></div>
+                                <div class="count-divider"><span></span></div>
+                                <h6 class="v-counter-text">No of Servicemen</h6>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <i class="fa fa-flash v-icon icn-holder"></i>
+                            <div class="v-counter">
+                                <div class="count-number" data-from="0" data-to="700" data-speed="1500" data-refresh-interval="25"></div>
+                                <div class="count-divider"><span></span></div>
+                                <h6 class="v-counter-text">No of Clients</h6>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <i class="fa fa-laptop v-icon icn-holder"></i>
+                            <div class="v-counter">
+                                <div class="count-number" data-from="0" data-to="200" data-speed="2000" data-refresh-interval="25"></div>
+                                <div class="count-divider"><span></span></div>
+                                <h6 class="v-counter-text">No of suppliers</h6>
+                            </div>
+                        </div>
+    
+                        <div class="col-sm-3">
+                            <i class="fa fa-umbrella v-icon icn-holder"></i>
+                            <div class="v-counter">
+                                <div class="count-number" data-from="0" data-to="5265" data-speed="2500" data-refresh-interval="25"></div>
+                                <div class="count-divider"><span></span></div>
+                                <h6 class="v-counter-text">No of served projects</h6>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <!--Client details end--> 
+            <div class="container">
+                    <div class="v-spacer col-sm-12 v-height-big"></div>
+            </div>
+            <!--Why Us-->
+            <div class="v-parallax v-bg-stylish v-bg-stylish-v4 no-shadow" id="why-us">
+                <div class="container">
+                    <div class="row app-brief">
+                        <div class="col-sm-6">
+                            <img class="img-responsive phone-image v-animation" data-animation="fade-from-left" data-delay="250" src="https://previews.123rf.com/images/cthoman/cthoman1509/cthoman150907166/44713157-a-cartoon-construction-worker-man-looking-angry-.jpg" />
+                        </div>
+
+                        <div class="col-sm-6">
+                            <p class="v-smash-text-large-2x pull-top">
+                                <span>Why it's the best</span>
+                            </p>
+                            <div class="horizontal-break left"></div>
+                            <p class="v-lead">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+
+                            <div class="v-spacer col-sm-12 v-height-small"></div>
+
+                            <ul class="v-list-v2">
+                                <li class="v-animation" data-animation="fade-from-right" data-delay="150"><i class="fa fa-check"></i><span class="v-lead">Simple & with endless possibilties.</span></li>
+                                <li class="v-animation" data-animation="fade-from-right" data-delay="300"><i class="fa fa-check"></i><span class="v-lead">Everything is perfectly orgainized for future.</span></li>
+                                <li class="v-animation" data-animation="fade-from-right" data-delay="450"><i class="fa fa-check"></i><span class="v-lead">Sliders give you the opportunity to showcase.</span></li>
+                                <li class="v-animation" data-animation="fade-from-right" data-delay="600"><i class="fa fa-check"></i><span class="v-lead">Multiple layout for home pages, portfolio & blog.</span></li>
+                                <li class="v-animation" data-animation="fade-from-right" data-delay="750"><i class="fa fa-check"></i><span class="v-lead">The best way to grow your business</span></li>
+                                <li class="v-animation" data-animation="fade-from-right" data-delay="900"><i class="fa fa-check"></i><span class="v-lead">Lorem ipsum dolor sit amet, consectetur.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Why Us-->
+ 
+
+      
+
+
+            <!--Download-->
+            <div class="v-parallax v-bg-stylish v-bg-stylish-v10" id="download" style="background-image: url(img/slider/slider4.jpg);">
+
+                <div class="container">
+                    <div class="row center">
+
+                        <div class="col-sm-12">
+
+                            <div class="v-content-wrapper">
+                                <!-- <p class="v-smash-text-large-2x">
+                                    <span>Download our app on</span>
+                                </p>
+
+                                <div class="v-spacer col-sm-12 v-height-standard"></div>
+
+                                <div id="intro_stores">
+                                    <a href="#">
+                                        <img src="img/landing/appstore.png" alt="appstore_icon"></a>
+                                    <a href="#">
+                                        <img src="img/landing/google.png" alt="google_icon"></a>
+                                    <a href="#">
+                                        <img src="img/landing/amazon.png" alt="amazon_icon"></a>
+                                </div> -->
+<!-- 
+                                <div class="v-spacer col-sm-12 v-height-big"></div> -->
+
+                                <p class="v-smash-text-large-2x">
+                                    <span>Subscribe Now & Get Notified!</span>
+                                </p>
+
+                                <div class="v-spacer col-sm-12 v-height-small"></div>
+
+                                <form class="subscription-form form-inline">
+
+                                    <input type="email" name="EMAIL" placeholder="Your Email" class="subscriber-email form-control input-box">
+                                    <a href="#" type="submit" class="subscriber-button btn v-btn v-medium-button no-three-d v-belize-hole"><i class="fa fa-fire"></i>Subscribe</a>
+                                </form>
+                            </div>
+
+                        </div>
+
+                        <div class="v-bg-overlay overlay-colored"></div>
+                    </div>
+                </div>
+            </div>
+            <!--End Download-->
+
+            <!--Call Us-->
+            <div class="v-parallax v-bg-stylish" id="contact-us">
+                <div class="container">
+                    <div class="row center">
+                        <div class="col-sm-8 col-sm-offset-2">
+                            <p class="v-smash-text-large-2x">
+                                <span>Call us today!</span>
+                            </p>
+                            <br />
+                            <p class="lead" style="color: #999;">
+                                +91 768 392 2839
+                            </p>
+                            <div class="horizontal-break"></div>
+
+                            <div class="v-spacer col-sm-12 v-height-small"></div>
+
+
+
+                            <form action="#" method="post">
+                                <div class="row">
+                                    <div class="form-group">
+                                        <div class="col-sm-4">
+                                            <label>Your name <span class="required">*</span></label>
+                                            <input type="text" value="" maxlength="100" class="form-control" name="name" id="name">
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <label>Your email address <span class="required">*</span></label>
+                                            <input type="email" value="" maxlength="100" class="form-control" name="email" id="email1">
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <label>Website</label>
+                                            <input type="text" value="" maxlength="100" class="form-control" name="website" id="website">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group">
+                                        <div class="col-sm-12">
+                                            <label>Comment <span class="required">*</span></label>
+                                            <textarea maxlength="5000" rows="10" class="form-control" name="comment" id="Textarea1"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <br />
+                                        <button name="submit" type="submit" id="sendmesage" class="btn v-btn no-three-d">Send Message</button>
+                                    </div>
+                                </div>
+                            </form> 
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="v-spacer col-sm-12 v-height-small"></div>
+                    </div>
+
+                    <div class="row center">
+                        <ul class="social-icons large center">
+                            <li class="twitter"><a href="http://www.twitter.com/#" target="_blank"><i class="fa fa-twitter"></i><i class="fa fa-twitter"></i></a></li>
+                            <li class="facebook"><a href="#" target="_blank"><i class="fa fa-facebook"></i><i class="fa fa-facebook"></i></a></li>
+                            <li class="youtube"><a href="#" target="_blank"><i class="fa fa-youtube"></i><i class="fa fa-youtube"></i></a></li>
+                            <li class="vimeo"><a href="http://www.vimeo.com/#" target="_blank"><i class="fa fa-vimeo-square"></i><i class="fa fa-vimeo-square"></i></a></li>
+                            <li class="tumblr"><a href="http://tumblr.tumblr.com/" target="_blank"><i class="fa fa-tumblr"></i><i class="fa fa-tumblr"></i></a></li>
+                            <li class="skype"><a href="skype:#" target="_blank"><i class="fa fa-skype"></i><i class="fa fa-skype"></i></a></li>
+                            <li class="linkedin"><a href="#" target="_blank"><i class="fa fa-linkedin"></i><i class="fa fa-linkedin"></i></a></li>
+                            <li class="googleplus"><a href="#" target="_blank"><i class="fa fa-google-plus"></i><i class="fa fa-google-plus"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--End Call Us-->
+        </div>
+
+        <!--Footer-Wrap-->
+        <div class="footer-wrap">
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <section class="widget">
+                                <img alt="Venue" src="img/logo-white.png" style="height: 40px; margin-bottom: 20px;">
+                                <p class="pull-bottom-small">
+                                    Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+                                    per inceptos himenaeos. Nulla nunc dui, tristique in semper vel,
+                                    congue sed ligula auctor fringill torquent per conubia nostra.
+                                    Class aptent taciti sociosqu ad litora conubia nostra.
+                                </p>
+                                <p>
+                                    <a href="page-about-us-2.html">Read More →</a>
+                                </p>
+                            </section>
+                        </div>
+                        <div class="col-sm-3">
+                            <section class="widget">
+                                <div class="widget-heading">
+                                    <h4>Contact Us</h4>
+                                </div>
+                                <div class="footer-contact-info">
+                                    <ul>
+                                        <li>
+                                            <p><i class="fa fa-building"></i>Your Company </p>
+                                        </li>
+                                        <li>
+                                            <p><i class="fa fa-map-marker"></i>Sector 9, Airoli, N-Mumbai 400708 </p>
+                                        </li>
+                                        <li>
+                                            <p><i class="fa fa-envelope"></i><strong>Email:</strong> <a href="mailto:mail@example.com">mail@example.com</a></p>
+                                        </li>
+                                        <li>
+                                            <p><i class="fa fa-phone"></i><strong>Phone:</strong> (123) 456-7890</p>
+                                        </li>
+                                    </ul>
+                                    <br />
+
+                                    <ul class="social-icons standard">
+                                        <li class="twitter"><a href="#" target="_blank"><i class="fa fa-twitter"></i><i class="fa fa-twitter"></i></a></li>
+                                        <li class="facebook"><a href="#" target="_blank"><i class="fa fa-facebook"></i><i class="fa fa-facebook"></i></a></li>
+                                        
+                                        <li class="youtube"><a href="#" target="_blank"><i class="fa fa-youtube"></i><i class="fa fa-youtube"></i></a></li>
+                                        <li class="googleplus"><a href="#" target="_blank"><i class="fa fa-google-plus"></i><i class="fa fa-google-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </section>
+                        </div>
+ 
+                        <div class="col-sm-3">
+                            <section class="widget">
+                                <div class="widget-heading">
+                                    <h4>Recent Works</h4>
+                                </div>
+                                <ul class="portfolio-grid">
+                                    <li>
+                                        <a href="portfolio-single.html" class="grid-img-wrap">
+                                            <img src="img/thumbs/project-1.jpg" />
+                                            <span class="tooltip">Phasellus enim libero<span class="arrow"></span></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="portfolio-single.html" class="grid-img-wrap">
+                                            <img src="img/thumbs/project-2.jpg" />
+                                            <span class="tooltip">Phasellus enim libero<span class="arrow"></span></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="portfolio-single.html" class="grid-img-wrap">
+                                            <img src="img/thumbs/project-3.jpg" />
+                                            <span class="tooltip">Phasellus enim<span class="arrow"></span></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="portfolio-single.html" class="grid-img-wrap">
+                                            <img src="img/thumbs/project-4.png" />
+                                            <span class="tooltip">Lorem Imput<span class="arrow"></span></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="portfolio-single.html" class="grid-img-wrap">
+                                            <img src="img/thumbs/project-5.jpg" />
+                                            <span class="tooltip">Phasellus Enim libero<span class="arrow"></span></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="portfolio-single.html" class="grid-img-wrap">
+                                            <img src="img/thumbs/project-6.jpg" />
+                                            <span class="tooltip">Phasellus Enim<span class="arrow"></span></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+            <div class="copyright">
+                <div class="container">
+                    <p>© Copyright 2019 by Datacult Products & Solutions. All Rights Reserved.</p>
+                    <nav class="footer-menu std-menu">
+                        <ul class="menu">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Products</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!--End Footer-Wrap-->
+    </div>
+
+    <!--// BACK TO TOP //-->
+    <div id="back-to-top" class="animate-top"><i class="fa fa-angle-up"></i></div>
+
+    <!-- Libs -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/jquery.easing.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/jquery.carouFredSel.min.js"></script>
+    <script src="js/theme-plugins.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/imagesloaded.js"></script>
+
+    <script src="js/view.min.js?auto"></script>
+
+    <script src="plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+    <script src="js/theme-core.js"></script>
+
+    <script>window.onload = function () { 
+
+     $("#loader").fadeOut(200);
+
+     }</script>
+</body>
+</html>
